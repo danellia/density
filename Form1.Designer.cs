@@ -136,6 +136,7 @@
             this.labelResult.Size = new System.Drawing.Size(105, 20);
             this.labelResult.TabIndex = 10;
             this.labelResult.Text = "                        ";
+            this.labelResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -154,7 +155,7 @@
             this.Controls.Add(this.labelB);
             this.Controls.Add(this.labelA);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Найти плотность";
             this.ResumeLayout(false);
             this.PerformLayout();
 
